@@ -9,6 +9,7 @@ PODS:
     - Bolts/Tasks
   - Bolts/Tasks (1.8.4)
   - CDAlertView (0.6.0)
+  - DropDownMenuKit (0.8.2)
   - FacebookCore (0.2.0):
     - Bolts (~> 1.8)
     - FBSDKCoreKit (~> 4.15)
@@ -22,25 +23,58 @@ PODS:
     - FacebookCore (~> 0.2)
     - FBSDKCoreKit (~> 4.15)
     - FBSDKShareKit (~> 4.15)
-  - FBSDKCoreKit (4.20.0):
+  - FBSDKCoreKit (4.22.0):
     - Bolts (~> 1.7)
-  - FBSDKLoginKit (4.20.0):
+  - FBSDKLoginKit (4.22.0):
     - FBSDKCoreKit
-  - FBSDKShareKit (4.20.0):
+  - FBSDKShareKit (4.22.0):
     - FBSDKCoreKit
   - ImageOpenTransition (0.1.7)
-  - IQKeyboardManagerSwift (4.0.8)
+  - IQKeyboardManagerSwift (4.0.9)
   - Kanna (2.1.1)
-  - MapleBacon (3.0.2)
-  - SwiftSpinner (1.1.0)
+  - libwebp (0.5.1):
+    - libwebp/core (= 0.5.1)
+    - libwebp/dec (= 0.5.1)
+    - libwebp/demux (= 0.5.1)
+    - libwebp/dsp (= 0.5.1)
+    - libwebp/enc (= 0.5.1)
+    - libwebp/mux (= 0.5.1)
+    - libwebp/utils (= 0.5.1)
+    - libwebp/webp (= 0.5.1)
+  - libwebp/core (0.5.1):
+    - libwebp/webp
+  - libwebp/dec (0.5.1):
+    - libwebp/core
+  - libwebp/demux (0.5.1):
+    - libwebp/core
+  - libwebp/dsp (0.5.1):
+    - libwebp/core
+  - libwebp/enc (0.5.1):
+    - libwebp/core
+  - libwebp/mux (0.5.1):
+    - libwebp/core
+  - libwebp/utils (0.5.1):
+    - libwebp/core
+  - libwebp/webp (0.5.1)
+  - MapleBacon (3.1.0)
+  - Pulsator (0.3.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SDWebImage/WebP (3.8.2):
+    - libwebp
+    - SDWebImage/Core
+  - SwiftSpinner (1.2.1)
   - SwiftyJSON (3.1.4)
-  - TextFieldEffects (1.3.1)
+  - TabPageViewController (0.2.7)
+  - TextFieldEffects (1.3.2)
   - UIColor_Hex_Swift (3.0.2)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
   - AlamofireImage (~> 3.1)
   - CDAlertView (from `https://github.com/candostdagdeviren/CDAlertView`)
+  - DropDownMenuKit
   - FacebookCore
   - FacebookLogin
   - FacebookShare
@@ -48,8 +82,12 @@ DEPENDENCIES:
   - IQKeyboardManagerSwift
   - Kanna (~> 2.1.0)
   - MapleBacon
+  - Pulsator
+  - SDWebImage (~> 3.8)
+  - SDWebImage/WebP
   - SwiftSpinner
   - SwiftyJSON
+  - TabPageViewController
   - TextFieldEffects (from `https://github.com/raulriera/TextFieldEffects`)
   - UIColor_Hex_Swift (~> 3.0.2)
 
@@ -64,7 +102,7 @@ CHECKOUT OPTIONS:
     :commit: 0120907e9c27926ff20f114db0c091c7b6acc46d
     :git: https://github.com/candostdagdeviren/CDAlertView
   TextFieldEffects:
-    :commit: 8ca40dd5e3c3e092e36f3f98ea24c87fcd520ccc
+    :commit: 6617f666230c7ad42aad126df38b04ced7199c29
     :git: https://github.com/raulriera/TextFieldEffects
 
 SPEC CHECKSUMS:
@@ -72,21 +110,26 @@ SPEC CHECKSUMS:
   AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   CDAlertView: 83444b68d67758c8aae0f9370ec62937b95bee85
+  DropDownMenuKit: 0acbd983fefac6718b1df209198ba6336c3e2772
   FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
   FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
   FacebookShare: 8e9ee8ea06505e6a1d3d719b0cc63e840fb8aaeb
-  FBSDKCoreKit: 2d16979b28fe28c2b95af0d275ad5f9703c6c8de
-  FBSDKLoginKit: a9d9391506c687e2304a590bf9312837fce7f375
-  FBSDKShareKit: 1b91af62a603d67f392bc7fde63bc4a0705dde31
+  FBSDKCoreKit: c693bad19feb225469eeff14452ba364522ee48b
+  FBSDKLoginKit: 1fa529fc622d7b32ebeaffbecd377180833c6d30
+  FBSDKShareKit: 21ab3c8d173f4fa20c47c1061f3a9fac5950b5fa
   ImageOpenTransition: 6a199dddd869cbfe12a853f52802e14d7f874c50
-  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
   Kanna: 9b4b086c218703f2b94f5b21a466217dd2f9332e
-  MapleBacon: 75ffc4d40c63b6e643bb66c2eca62b09de01a1cc
-  SwiftSpinner: c03815614599b91eea46594bd52ba742849d0414
+  libwebp: b9126f8982a95370cf4eaad9bb3fefd57f052c15
+  MapleBacon: 03b7a3d61409f8ae286ead261590e4a650754b09
+  Pulsator: 0191f14f7ab82d6dbde6fdbde42036f07a4450e3
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftSpinner: 62a28bbb4035f252a1e91b0e17fc40bdbbfa0aab
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
-  TextFieldEffects: b54766be8101d839c0bdbc8ec2258a58de151d51
+  TabPageViewController: c37a1257a50c2b50712dde61bf499768eee95b67
+  TextFieldEffects: ace4c2cd99c9d21d4e1523ae106e72c35c438064
   UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
 
-PODFILE CHECKSUM: 1f184b0c5ae0da77bc7cb2a037dd4765c31654f4
+PODFILE CHECKSUM: 77a08d4ca2172ab2d2976aac99bee8358879e4bb
 
 COCOAPODS: 1.2.0

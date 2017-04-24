@@ -10,13 +10,21 @@
 		A49C6A3D92BA543F8B7A8AEF /* Pods_Lyrix_Plus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AB1CC1366EE0487548A400 /* Pods_Lyrix_Plus.framework */; };
 		E20406A31EA6B36400206195 /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20406A21EA6B36400206195 /* MyTabBarViewController.swift */; };
 		E22BEAA41E76A15900AD9E78 /* UploadPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22BEAA01E76A15900AD9E78 /* UploadPicture.swift */; };
-		E22BEAA51E76A15900AD9E78 /* TopMusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22BEAA11E76A15900AD9E78 /* TopMusicController.swift */; };
-		E22BEAA61E76A15900AD9E78 /* SongDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22BEAA21E76A15900AD9E78 /* SongDetailsController.swift */; };
-		E22BEAA71E76A15900AD9E78 /* SelectCountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22BEAA31E76A15900AD9E78 /* SelectCountryController.swift */; };
-		E22BEAA91E76AC8500AD9E78 /* DropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22BEAA81E76AC8500AD9E78 /* DropDownMenu.swift */; };
+		E2315B191EAB91CC000C12B7 /* TopSongArtistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2315B0B1EAB91CC000C12B7 /* TopSongArtistController.swift */; };
+		E2315B1A1EAB91CC000C12B7 /* ArtistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2315B0C1EAB91CC000C12B7 /* ArtistController.swift */; };
+		E2315B1B1EAB91CC000C12B7 /* SearchArtistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2315B0D1EAB91CC000C12B7 /* SearchArtistController.swift */; };
+		E2315B1C1EAB91CC000C12B7 /* SearchMusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2315B0E1EAB91CC000C12B7 /* SearchMusicController.swift */; };
+		E2315B1D1EAB91CC000C12B7 /* TopMusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2315B0F1EAB91CC000C12B7 /* TopMusicController.swift */; };
+		E2315B1E1EAB91CC000C12B7 /* SongDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2315B101EAB91CC000C12B7 /* SongDetailsController.swift */; };
+		E2315B1F1EAB91CC000C12B7 /* SelectCountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2315B111EAB91CC000C12B7 /* SelectCountryController.swift */; };
+		E2315B201EAB91CC000C12B7 /* RecognitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2315B121EAB91CC000C12B7 /* RecognitionController.swift */; };
+		E2315B211EAB91CC000C12B7 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2315B131EAB91CC000C12B7 /* SongCell.swift */; };
+		E2315B221EAB91CC000C12B7 /* DropMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2315B141EAB91CC000C12B7 /* DropMenuButton.swift */; };
+		E2315B231EAB91CC000C12B7 /* DropDownTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2315B151EAB91CC000C12B7 /* DropDownTitleView.swift */; };
+		E2315B241EAB91CC000C12B7 /* DropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2315B161EAB91CC000C12B7 /* DropDownMenu.swift */; };
+		E2315B251EAB91CC000C12B7 /* DropDownMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2315B171EAB91CC000C12B7 /* DropDownMenuCell.swift */; };
 		E240AE311E770DF40077BD9F /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E240AE301E770DF40077BD9F /* CommentsViewController.swift */; };
 		E246CA1D1EA817F800F66898 /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246CA1C1EA817F800F66898 /* customButton.swift */; };
-		E25207B61E9DA1BF00D3819A /* SearchMusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25207B51E9DA1BF00D3819A /* SearchMusicController.swift */; };
 		E25207B81E9DB64200D3819A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25207B71E9DB64200D3819A /* Reachability.swift */; };
 		E25563F91E8815C100222E15 /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25563D01E8815C100222E15 /* HeroAnimatorViewContext.swift */; };
 		E25563FA1E8815C100222E15 /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25563D11E8815C100222E15 /* HeroCoreAnimationViewContext.swift */; };
@@ -72,6 +80,7 @@
 		E294F8341EA5522C004C1B81 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E294F8321EA5522C004C1B81 /* MainInterface.storyboard */; };
 		E294F8381EA5522C004C1B81 /* Lyrix_Plus.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E294F82C1EA5522C004C1B81 /* Lyrix_Plus.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E294F83E1EA5712B004C1B81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2727D451E43D80800521B23 /* Assets.xcassets */; };
+		E2B21FD01EAB9ACC00005F5A /* LyriXPlus.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = E2B21FCF1EAB9ACC00005F5A /* LyriXPlus.xcdatamodel */; };
 		E2C042B41E7570FF00A67A16 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C042B31E7570FF00A67A16 /* DetailsViewController.swift */; };
 		E2C6D2E91E6F61DC0060031D /* SharesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6D2E81E6F61DC0060031D /* SharesViewController.swift */; };
 		E2EA37101E55BE70000E277E /* Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA370F1E55BE70000E277E /* Records.swift */; };
@@ -142,17 +151,24 @@
 		2DE5D0DB2E31C5F24D1ABE7A /* Pods-Lyrix Plus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lyrix Plus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lyrix Plus/Pods-Lyrix Plus.debug.xcconfig"; sourceTree = "<group>"; };
 		D1AB1CC1366EE0487548A400 /* Pods_Lyrix_Plus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lyrix_Plus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2010AA21EA6E19900839037 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
-		E2010AB71EA6E5EF00839037 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E20406A21EA6B36400206195 /* MyTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
 		E22BEAA01E76A15900AD9E78 /* UploadPicture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadPicture.swift; sourceTree = "<group>"; };
-		E22BEAA11E76A15900AD9E78 /* TopMusicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMusicController.swift; sourceTree = "<group>"; };
-		E22BEAA21E76A15900AD9E78 /* SongDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongDetailsController.swift; sourceTree = "<group>"; };
-		E22BEAA31E76A15900AD9E78 /* SelectCountryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCountryController.swift; sourceTree = "<group>"; };
-		E22BEAA81E76AC8500AD9E78 /* DropDownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownMenu.swift; sourceTree = "<group>"; };
+		E2315B0B1EAB91CC000C12B7 /* TopSongArtistController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopSongArtistController.swift; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/TopSongArtistController.swift"; sourceTree = "<group>"; };
+		E2315B0C1EAB91CC000C12B7 /* ArtistController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArtistController.swift; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/ArtistController.swift"; sourceTree = "<group>"; };
+		E2315B0D1EAB91CC000C12B7 /* SearchArtistController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchArtistController.swift; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/SearchArtistController.swift"; sourceTree = "<group>"; };
+		E2315B0E1EAB91CC000C12B7 /* SearchMusicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchMusicController.swift; path = "../../../Downloads/LyriXPlus-master/SearchMusicController.swift"; sourceTree = "<group>"; };
+		E2315B0F1EAB91CC000C12B7 /* TopMusicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopMusicController.swift; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/TopMusicController.swift"; sourceTree = "<group>"; };
+		E2315B101EAB91CC000C12B7 /* SongDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SongDetailsController.swift; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/SongDetailsController.swift"; sourceTree = "<group>"; };
+		E2315B111EAB91CC000C12B7 /* SelectCountryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectCountryController.swift; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/SelectCountryController.swift"; sourceTree = "<group>"; };
+		E2315B121EAB91CC000C12B7 /* RecognitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecognitionController.swift; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/RecognitionController.swift"; sourceTree = "<group>"; };
+		E2315B131EAB91CC000C12B7 /* SongCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SongCell.swift; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/SongCell.swift"; sourceTree = "<group>"; };
+		E2315B141EAB91CC000C12B7 /* DropMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropMenuButton.swift; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/DropMenuButton.swift"; sourceTree = "<group>"; };
+		E2315B151EAB91CC000C12B7 /* DropDownTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownTitleView.swift; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/DropDownTitleView.swift"; sourceTree = "<group>"; };
+		E2315B161EAB91CC000C12B7 /* DropDownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownMenu.swift; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/DropDownMenu.swift"; sourceTree = "<group>"; };
+		E2315B171EAB91CC000C12B7 /* DropDownMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownMenuCell.swift; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/DropDownMenuCell.swift"; sourceTree = "<group>"; };
+		E2315B181EAB91CC000C12B7 /* DropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DropDownMenu.h; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/DropDownMenu.h"; sourceTree = "<group>"; };
 		E240AE301E770DF40077BD9F /* CommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		E246CA1C1EA817F800F66898 /* customButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
-		E25207B41E9DA08700D3819A /* DropDownMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDownMenu.h; sourceTree = "<group>"; };
-		E25207B51E9DA1BF00D3819A /* SearchMusicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMusicController.swift; sourceTree = "<group>"; };
 		E25207B71E9DB64200D3819A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		E25563D01E8815C100222E15 /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
 		E25563D11E8815C100222E15 /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
@@ -212,6 +228,7 @@
 		E294F8331EA5522C004C1B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		E294F8351EA5522C004C1B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E294F83D1EA55D14004C1B81 /* Lyrix_Plus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lyrix_Plus.entitlements; sourceTree = "<group>"; };
+		E2B21FCF1EAB9ACC00005F5A /* LyriXPlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = LyriXPlus.xcdatamodel; path = "../../../Downloads/LyriXPlus-master/LyriXPlus/LyriXPlus.xcdatamodeld/LyriXPlus.xcdatamodel"; sourceTree = "<group>"; };
 		E2C042B31E7570FF00A67A16 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		E2C6D2E71E6F4D0C0060031D /* Lyrix Plus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lyrix Plus.entitlements"; sourceTree = "<group>"; };
 		E2C6D2E81E6F61DC0060031D /* SharesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharesViewController.swift; sourceTree = "<group>"; };
@@ -277,7 +294,6 @@
 		5007F93F0A28BAA7071D7EBE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E2010AB71EA6E5EF00839037 /* CoreLocation.framework */,
 				D1AB1CC1366EE0487548A400 /* Pods_Lyrix_Plus.framework */,
 				E294F82D1EA5522C004C1B81 /* NotificationCenter.framework */,
 				E2010AA21EA6E19900839037 /* IntentsUI.framework */,
@@ -399,23 +415,32 @@
 				E2727D3E1E43D80800521B23 /* AppDelegate.swift */,
 				E2727D401E43D80800521B23 /* ViewController.swift */,
 				E22BEAA01E76A15900AD9E78 /* UploadPicture.swift */,
-				E22BEAA11E76A15900AD9E78 /* TopMusicController.swift */,
 				E269C6A11E8920B90056A4DD /* RecorderViewController.swift */,
 				E269C6A21E8920B90056A4DD /* Recording.swift */,
+				E2315B0B1EAB91CC000C12B7 /* TopSongArtistController.swift */,
+				E2315B0C1EAB91CC000C12B7 /* ArtistController.swift */,
+				E2315B0D1EAB91CC000C12B7 /* SearchArtistController.swift */,
+				E2315B0E1EAB91CC000C12B7 /* SearchMusicController.swift */,
+				E2315B0F1EAB91CC000C12B7 /* TopMusicController.swift */,
+				E2315B101EAB91CC000C12B7 /* SongDetailsController.swift */,
+				E2315B111EAB91CC000C12B7 /* SelectCountryController.swift */,
+				E2315B121EAB91CC000C12B7 /* RecognitionController.swift */,
+				E2315B131EAB91CC000C12B7 /* SongCell.swift */,
+				E2315B141EAB91CC000C12B7 /* DropMenuButton.swift */,
+				E2315B151EAB91CC000C12B7 /* DropDownTitleView.swift */,
+				E2315B161EAB91CC000C12B7 /* DropDownMenu.swift */,
+				E2315B171EAB91CC000C12B7 /* DropDownMenuCell.swift */,
+				E2B21FCF1EAB9ACC00005F5A /* LyriXPlus.xcdatamodel */,
+				E2315B181EAB91CC000C12B7 /* DropDownMenu.h */,
 				E269C6A31E8920B90056A4DD /* VoiceRecordHUD.swift */,
-				E25207B51E9DA1BF00D3819A /* SearchMusicController.swift */,
-				E22BEAA21E76A15900AD9E78 /* SongDetailsController.swift */,
 				E2727D421E43D80800521B23 /* Main.storyboard */,
 				E2727D451E43D80800521B23 /* Assets.xcassets */,
 				E2727D471E43D80800521B23 /* LaunchScreen.storyboard */,
 				E2727D4A1E43D80800521B23 /* Info.plist */,
 				E2727D521E43E6C400521B23 /* ProfilViewController.swift */,
-				E22BEAA31E76A15900AD9E78 /* SelectCountryController.swift */,
 				E2EA370F1E55BE70000E277E /* Records.swift */,
 				E2EA37141E55CB94000E277E /* SignUpController.swift */,
 				E2C6D2E81E6F61DC0060031D /* SharesViewController.swift */,
-				E25207B41E9DA08700D3819A /* DropDownMenu.h */,
-				E22BEAA81E76AC8500AD9E78 /* DropDownMenu.swift */,
 				E27140491E704CD7009ED610 /* HomeViewController.swift */,
 				E2C042B31E7570FF00A67A16 /* DetailsViewController.swift */,
 				E240AE301E770DF40077BD9F /* CommentsViewController.swift */,
@@ -899,15 +924,21 @@
 			files = (
 				E2EA377A1E55D5AB000E277E /* SPUIViewExtenshion.swift in Sources */,
 				E2EA37701E55D5AB000E277E /* SPSegmentControlProtocol.swift in Sources */,
+				E2B21FD01EAB9ACC00005F5A /* LyriXPlus.xcdatamodel in Sources */,
 				E269C6A01E8920970056A4DD /* AddRecordViewController.swift in Sources */,
+				E2315B1D1EAB91CC000C12B7 /* TopMusicController.swift in Sources */,
 				E2727D531E43E6C400521B23 /* ProfilViewController.swift in Sources */,
+				E2315B1E1EAB91CC000C12B7 /* SongDetailsController.swift in Sources */,
 				E269C6A41E8920B90056A4DD /* RecorderViewController.swift in Sources */,
+				E2315B1C1EAB91CC000C12B7 /* SearchMusicController.swift in Sources */,
+				E2315B191EAB91CC000C12B7 /* TopSongArtistController.swift in Sources */,
 				E2EA37641E55D5AB000E277E /* SPLaunchAnimationTwitterExtenshion.swift in Sources */,
 				E255640C1E8815C100222E15 /* HeroModifier+HeroStringConvertible.swift in Sources */,
 				E25564091E8815C100222E15 /* HeroBaseController.swift in Sources */,
 				E2EA37131E55C1D3000E277E /* SharedPreferences.swift in Sources */,
 				E25563F91E8815C100222E15 /* HeroAnimatorViewContext.swift in Sources */,
 				E246CA1D1EA817F800F66898 /* customButton.swift in Sources */,
+				E2315B251EAB91CC000C12B7 /* DropDownMenuCell.swift in Sources */,
 				E2EA376F1E55D5AB000E277E /* SPSegmentControllCell.swift in Sources */,
 				E2EA376A1E55D5AB000E277E /* SPPageItemsScallingViewController.swift in Sources */,
 				E2EA37761E55D5AB000E277E /* SPParallaxTableViewCell.swift in Sources */,
@@ -932,18 +963,17 @@
 				E255641C1E8815C100222E15 /* SourcePreprocessor.swift in Sources */,
 				E25563FF1E8815C100222E15 /* DefaultAnimationPreprocessor.swift in Sources */,
 				E25564101E8815C100222E15 /* HeroTargetState.swift in Sources */,
-				E22BEAA61E76A15900AD9E78 /* SongDetailsController.swift in Sources */,
 				E25564031E8815C100222E15 /* CG+Hero.swift in Sources */,
 				E2EA37661E55D5AB000E277E /* SPLaunchAnimation.swift in Sources */,
-				E25207B61E9DA1BF00D3819A /* SearchMusicController.swift in Sources */,
 				E25207B81E9DB64200D3819A /* Reachability.swift in Sources */,
 				E25564111E8815C100222E15 /* HeroTypes.swift in Sources */,
 				E2EA375A1E55D5AB000E277E /* SPAnimationSpring.swift in Sources */,
 				E25564151E8815C100222E15 /* Parser.swift in Sources */,
 				E2EA375B1E55D5AB000E277E /* SPAnimationUpward.swift in Sources */,
-				E22BEAA71E76A15900AD9E78 /* SelectCountryController.swift in Sources */,
 				E2727D3F1E43D80800521B23 /* AppDelegate.swift in Sources */,
 				E269C6A61E8920B90056A4DD /* VoiceRecordHUD.swift in Sources */,
+				E2315B201EAB91CC000C12B7 /* RecognitionController.swift in Sources */,
+				E2315B1F1EAB91CC000C12B7 /* SelectCountryController.swift in Sources */,
 				E25564191E8815C100222E15 /* DurationPreprocessor.swift in Sources */,
 				E2EA37631E55D5AB000E277E /* SPInternetConnection.swift in Sources */,
 				E2EA375F1E55D5AB000E277E /* SPDelay.swift in Sources */,
@@ -965,20 +995,24 @@
 				E255640F1E8815C100222E15 /* HeroStringConvertible.swift in Sources */,
 				E2EA37151E55CB94000E277E /* SignUpController.swift in Sources */,
 				E20406A31EA6B36400206195 /* MyTabBarViewController.swift in Sources */,
+				E2315B1A1EAB91CC000C12B7 /* ArtistController.swift in Sources */,
 				E25563FA1E8815C100222E15 /* HeroCoreAnimationViewContext.swift in Sources */,
-				E22BEAA51E76A15900AD9E78 /* TopMusicController.swift in Sources */,
 				E2C6D2E91E6F61DC0060031D /* SharesViewController.swift in Sources */,
 				E2EA376B1E55D5AB000E277E /* SPParalaxTableViewController.swift in Sources */,
 				E25564021E8815C100222E15 /* CAMediaTimingFunction+Hero.swift in Sources */,
+				E2315B241EAB91CC000C12B7 /* DropDownMenu.swift in Sources */,
+				E2315B231EAB91CC000C12B7 /* DropDownTitleView.swift in Sources */,
 				E2EA37651E55D5AB000E277E /* SPLaunchAnimationSlideExtenshion.swift in Sources */,
 				E25564081E8815C100222E15 /* Hero.swift in Sources */,
 				E2EA37591E55D5AB000E277E /* SPAnimation.swift in Sources */,
 				E269C6A51E8920B90056A4DD /* Recording.swift in Sources */,
+				E2315B211EAB91CC000C12B7 /* SongCell.swift in Sources */,
 				E25564181E8815C100222E15 /* CascadePreprocessor.swift in Sources */,
 				E2EA37791E55D5AB000E277E /* SPUILabelExtenshion.swift in Sources */,
 				E2EA37751E55D5AB000E277E /* SPPageItemsScalingCollectionLayout.swift in Sources */,
 				E25564001E8815C100222E15 /* Array+HeroModifier.swift in Sources */,
 				E2EA37721E55D5AB000E277E /* SPSegmentedControl.swift in Sources */,
+				E2315B1B1EAB91CC000C12B7 /* SearchArtistController.swift in Sources */,
 				E2EA37741E55D5AB000E277E /* SPPageItemsScalingCollectionView.swift in Sources */,
 				E2C042B41E7570FF00A67A16 /* DetailsViewController.swift in Sources */,
 				E25564171E8815C100222E15 /* BasePreprocessor.swift in Sources */,
@@ -988,8 +1022,8 @@
 				E2EA37601E55D5AB000E277E /* SPUIDeviceExtenshion.swift in Sources */,
 				E255640A1E8815C100222E15 /* HeroContext.swift in Sources */,
 				E25564011E8815C100222E15 /* CALayer+Hero.swift in Sources */,
+				E2315B221EAB91CC000C12B7 /* DropMenuButton.swift in Sources */,
 				E22BEAA41E76A15900AD9E78 /* UploadPicture.swift in Sources */,
-				E22BEAA91E76AC8500AD9E78 /* DropDownMenu.swift in Sources */,
 				E25564161E8815C100222E15 /* Regex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1139,6 +1173,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Lyrix Plus/Lyrix Plus.entitlements";
 				DEVELOPMENT_TEAM = G96V29LG5G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods",
+				);
 				INFOPLIST_FILE = "Lyrix Plus/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.esprit.Lyrix-Plus";
@@ -1155,6 +1194,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Lyrix Plus/Lyrix Plus.entitlements";
 				DEVELOPMENT_TEAM = G96V29LG5G;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods",
+				);
 				INFOPLIST_FILE = "Lyrix Plus/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.esprit.Lyrix-Plus";

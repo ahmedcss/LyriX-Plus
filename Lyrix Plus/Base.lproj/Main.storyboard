@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KvK-EN-QM9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KvK-EN-QM9">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -175,7 +175,7 @@
         <!--My Shares-->
         <scene sceneID="rTs-Dn-bB6">
             <objects>
-                <viewController title="My Shares" id="hSO-g5-mlX" customClass="SharesViewController" customModule="Lyrix_Plus" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="My Shares" id="hSO-g5-mlX" customClass="SharesViewController" customModule="Lyrix_Plus" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dFR-Mu-gZw"/>
                         <viewControllerLayoutGuide type="bottom" id="hG5-et-9kj"/>
@@ -1287,11 +1287,6 @@
                                     <segue destination="Rdk-d5-htj" kind="show" identifier="comment" id="ET8-dS-bps"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KrV-aj-m5c">
-                                <rect key="frame" x="183" y="471" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="youtube-2"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Akd-hm-xFu">
                                 <rect key="frame" x="160" y="569" width="35" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1351,7 +1346,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o0b-Pn-2Nn">
-                                <rect key="frame" x="247" y="471" width="35" height="35"/>
+                                <rect key="frame" x="214" y="471" width="35" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="microphone_red"/>
                                 <connections>
@@ -1359,7 +1354,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7I-Gd-ABN">
-                                <rect key="frame" x="104" y="471" width="35" height="35"/>
+                                <rect key="frame" x="160" y="470" width="35" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="lyrics"/>
                                 <connections>
@@ -1601,7 +1596,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="nOa-bf-e0N" kind="relationship" relationship="rootViewController" id="E6e-5s-6qI"/>
+                        <segue destination="VLe-xe-krv" kind="relationship" relationship="rootViewController" id="YQN-ux-Yqf"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V0E-Pa-zTw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2007,36 +2002,36 @@
             <point key="canvasLocation" x="-3063.1999999999998" y="2506.5967016491754"/>
         </scene>
         <!--Select An Other Country-->
-        <scene sceneID="Rij-tQ-UGh">
+        <scene sceneID="9oD-Mj-7Sg">
             <objects>
-                <viewController storyboardIdentifier="SelectCountryController" title="Select An Other Country" automaticallyAdjustsScrollViewInsets="NO" id="hBt-0o-kYa" customClass="SelectCountryController" customModule="Lyrix_Plus" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SelectCountryController" title="Select An Other Country" automaticallyAdjustsScrollViewInsets="NO" id="Jnf-DK-fMt" customClass="SelectCountryController" customModule="Lyrix_Plus" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="3bs-L9-tSK"/>
-                        <viewControllerLayoutGuide type="bottom" id="x5o-75-cp5"/>
+                        <viewControllerLayoutGuide type="top" id="AbX-Zz-tkI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q3Z-wA-fzd"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="b7V-R4-ynp">
+                    <view key="view" contentMode="scaleToFill" id="2fh-Sp-fZ2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="64" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vEK-Ce-OBn">
-                                <rect key="frame" x="0.0" y="46" width="375" height="586"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="64" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3OX-US-XaS">
+                                <rect key="frame" x="16" y="46" width="343" height="583"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="sectionIndexBackgroundColor" red="0.69194501639999995" green="0.15874440970000001" blue="0.10202622409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" rowHeight="64" id="ovP-xS-OyP">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="64"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="myCell" rowHeight="64" id="ZXz-0d-9EP">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="64"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ovP-xS-OyP" id="FEz-Ij-jUy">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="63.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZXz-0d-9EP" id="aiK-lc-M7D">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="63.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" tag="202" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XVI-i8-b5N">
-                                                    <rect key="frame" x="265" y="13" width="40" height="40"/>
+                                                <imageView userInteractionEnabled="NO" tag="202" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p34-pb-tJV">
+                                                    <rect key="frame" x="12" y="11" width="46" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="201" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fqg-oD-Is8">
-                                                    <rect key="frame" x="14" y="21" width="220" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="201" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bwi-Iv-PqJ">
+                                                    <rect key="frame" x="73" y="21" width="234" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="16"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2048,386 +2043,207 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m02-Jr-Ekq">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VuV-4t-aeS">
                                 <rect key="frame" x="10" y="7" width="84" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleColor" red="0.69194501639999995" green="0.15874440970000001" blue="0.10202622409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="CancelBtn:" destination="hBt-0o-kYa" eventType="touchUpInside" id="gfD-JZ-Hhv"/>
-                                    <action selector="cancel:" destination="hBt-0o-kYa" eventType="touchUpInside" id="4m0-xu-FwL"/>
+                                    <action selector="CancelBtn:" destination="Jnf-DK-fMt" eventType="touchUpInside" id="L0b-kx-dKZ"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <connections>
-                        <outlet property="countryTableView" destination="vEK-Ce-OBn" id="j1b-m4-cuZ"/>
+                        <outlet property="countryTableView" destination="3OX-US-XaS" id="ZWW-LC-I1B"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uHw-jR-okD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="deE-fS-1k0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4829.6000000000004" y="2213.3433283358322"/>
-        </scene>
-        <!--Welcome to LyriX Plus-->
-        <scene sceneID="Vph-2j-TUu">
-            <objects>
-                <viewController restorationIdentifier="SearchForMusic" storyboardIdentifier="SearchForMusic" automaticallyAdjustsScrollViewInsets="NO" id="eZQ-74-ph5" customClass="SearchMusicController" customModule="Lyrix_Plus" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5h8-Kz-c63"/>
-                        <viewControllerLayoutGuide type="bottom" id="QQd-bN-mdp"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="4mG-ya-oaG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="131" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Vbp-Rf-CZi">
-                                <rect key="frame" x="0.0" y="103" width="375" height="501"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="separatorColor" red="0.69194501639999995" green="0.15874440970000001" blue="0.10202622409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="sectionIndexBackgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="helloCell" rowHeight="131" id="rzu-2Q-a4Q">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="131"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rzu-2Q-a4Q" id="8fz-hh-gEb">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="130.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="301" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ed sheran" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CfV-oz-2VG">
-                                                    <rect key="frame" x="132" y="23" width="180" height="50"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="13"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView userInteractionEnabled="NO" tag="303" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9VD-hb-rzK">
-                                                    <rect key="frame" x="19" y="23" width="90" height="90"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="302" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shape Of You" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Kf-RT-qUE">
-                                                    <rect key="frame" x="132" y="68" width="180" height="50"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="13"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                            <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cOZ-SB-oku">
-                                <rect key="frame" x="43" y="67" width="288" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="Music"/>
-                                    <segment title="Lyrics"/>
-                                </segments>
-                                <color key="tintColor" red="0.91122645140000003" green="0.3371972144" blue="0.3765407503" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </segmentedControl>
-                        </subviews>
-                        <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Welcome to LyriX Plus" id="hHX-jH-uJP"/>
-                    <connections>
-                        <outlet property="tblView" destination="Vbp-Rf-CZi" id="1gv-5T-Zeq"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8vH-YF-rpj" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5828" y="2212.4437781109445"/>
-        </scene>
-        <!--Song Details-->
-        <scene sceneID="bRt-DF-nH2">
-            <objects>
-                <viewController storyboardIdentifier="SongDetailsController" title="Song Details" id="dYh-o7-XA9" customClass="SongDetailsController" customModule="Lyrix_Plus" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="J2z-hT-LSW"/>
-                        <viewControllerLayoutGuide type="bottom" id="2I3-7O-xx1"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="KLj-U6-Vtf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwk-D2-YXk">
-                                <rect key="frame" x="5" y="198" width="24" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="pause"/>
-                                <connections>
-                                    <action selector="PauseBtn:" destination="dYh-o7-XA9" eventType="touchUpInside" id="MbK-yf-Dua"/>
-                                </connections>
-                            </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CW6-XE-cp3">
-                                <rect key="frame" x="32" y="198" width="24" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="replay"/>
-                                <connections>
-                                    <action selector="ReplayBtn:" destination="dYh-o7-XA9" eventType="touchUpInside" id="KSG-Is-djq"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRC-gU-DXv">
-                                <rect key="frame" x="5" y="198" width="24" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="play"/>
-                                <connections>
-                                    <action selector="playBtn:" destination="dYh-o7-XA9" eventType="touchUpInside" id="ZRL-nO-E1Z"/>
-                                </connections>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aWT-J2-4BK">
-                                <rect key="frame" x="19" y="316" width="343" height="248"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lyrics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27g-ln-87c">
-                                <rect key="frame" x="8" y="284" width="181" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="13"/>
-                                <color key="textColor" red="0.92295598980000004" green="0.34112918380000001" blue="0.38046142459999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <webView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wu3-cz-LIi">
-                                <rect key="frame" x="16" y="269" width="346" height="215"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Qn2-Ap-kID">
-                                <rect key="frame" x="88" y="195" width="214" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="minimumTrackTintColor" red="0.91122645140000003" green="0.3371972144" blue="0.3765407503" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <connections>
-                                    <action selector="changeAudioTimer:" destination="dYh-o7-XA9" eventType="valueChanged" id="RPp-t3-AbB"/>
-                                </connections>
-                            </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:30" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0n-cU-btW">
-                                <rect key="frame" x="308" y="200" width="46" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CfJ-ji-0pQ">
-                                <rect key="frame" x="16" y="75" width="93" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ed sheran" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQ2-je-dOg">
-                                <rect key="frame" x="124" y="85" width="180" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="13"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Artist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pJ-i6-zTe">
-                                <rect key="frame" x="124" y="64" width="79" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="13"/>
-                                <color key="textColor" red="0.92295598980000004" green="0.34112918380000001" blue="0.38046142459999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shape Of You" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UlM-mC-gtH">
-                                <rect key="frame" x="124" y="140" width="180" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="13"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRW-MO-EVr">
-                                <rect key="frame" x="124" y="127" width="170" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="13"/>
-                                <color key="textColor" red="0.92295598980000004" green="0.34112918380000001" blue="0.38046142459999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Preview" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FH7-AD-cOl">
-                                <rect key="frame" x="14" y="171" width="170" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="13"/>
-                                <color key="textColor" red="0.92295598980000004" green="0.34112918380000001" blue="0.38046142459999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6T-Rd-IPI">
-                                <rect key="frame" x="152" y="231" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="youtube"/>
-                                <connections>
-                                    <action selector="launch:" destination="dYh-o7-XA9" eventType="touchUpInside" id="6J8-an-fk0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ci-Tn-75m">
-                                <rect key="frame" x="14" y="231" width="168" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="13"/>
-                                <state key="normal" title="Listen on Youtube">
-                                    <color key="titleColor" red="0.92295598980000004" green="0.34112918380000001" blue="0.38046142459999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="LaunchYoutubeVideo:" destination="dYh-o7-XA9" eventType="touchUpInside" id="OnB-aL-tsD"/>
-                                </connections>
-                            </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Usv-Bo-2jZ">
-                                <rect key="frame" x="322" y="237" width="18" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="up"/>
-                                <connections>
-                                    <action selector="getHigh:" destination="dYh-o7-XA9" eventType="touchUpInside" id="un0-tF-sZC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8J-FA-fMr">
-                                <rect key="frame" x="329" y="75" width="25" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="share"/>
-                                <connections>
-                                    <action selector="ShareButtonTaped:" destination="dYh-o7-XA9" eventType="touchUpInside" id="VdQ-vH-kvN"/>
-                                </connections>
-                            </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05d-C9-nz9">
-                                <rect key="frame" x="14" y="231" width="346" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </view>
-                    <connections>
-                        <outlet property="LogoYT" destination="P6T-Rd-IPI" id="ban-cC-k3Y"/>
-                        <outlet property="LyricsLabel" destination="aWT-J2-4BK" id="hKW-tK-1TM"/>
-                        <outlet property="artistNameLabel" destination="wQ2-je-dOg" id="fY3-Ev-5sV"/>
-                        <outlet property="artistPicture" destination="CfJ-ji-0pQ" id="Ksz-Xj-I2K"/>
-                        <outlet property="cheatLabel" destination="05d-C9-nz9" id="5HF-Q8-Abq"/>
-                        <outlet property="getHighOutlet" destination="Usv-Bo-2jZ" id="dhb-y4-XP5"/>
-                        <outlet property="labelLyrics" destination="27g-ln-87c" id="Gr6-HX-nZ3"/>
-                        <outlet property="listenOnYTlabel" destination="9ci-Tn-75m" id="op0-WS-QHY"/>
-                        <outlet property="pauseBtnOutlet" destination="mwk-D2-YXk" id="ugT-MK-XJT"/>
-                        <outlet property="playBtnOutlet" destination="dRC-gU-DXv" id="pgP-nk-nD5"/>
-                        <outlet property="previewLab" destination="FH7-AD-cOl" id="7ik-gz-TM9"/>
-                        <outlet property="repeatBtnOutlet" destination="CW6-XE-cp3" id="skS-iy-QMd"/>
-                        <outlet property="slider" destination="Qn2-Ap-kID" id="r6D-CW-AWf"/>
-                        <outlet property="songNameLabel" destination="UlM-mC-gtH" id="gLc-c0-8CH"/>
-                        <outlet property="timer" destination="i0n-cU-btW" id="1Z4-Nr-5kg"/>
-                        <outlet property="webView" destination="wu3-cz-LIi" id="RMj-o6-2ov"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aXK-4d-uDj" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2552.8000000000002" y="1850.824587706147"/>
+            <point key="canvasLocation" x="8866.3999999999996" y="-605.84707646176912"/>
         </scene>
         <!--Top Music-->
-        <scene sceneID="moO-QT-7ca">
+        <scene sceneID="1yv-bp-OUD">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="nOa-bf-e0N" customClass="TopMuicController" customModule="Lyrix_Plus" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="VLe-xe-krv" customClass="TopMuicController" customModule="Lyrix_Plus" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="IKf-JZ-egM"/>
-                        <viewControllerLayoutGuide type="bottom" id="rlp-cy-J4F"/>
+                        <viewControllerLayoutGuide type="top" id="KXM-xc-Xye"/>
+                        <viewControllerLayoutGuide type="bottom" id="MBM-qU-dre"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="IBS-0T-wwu">
+                    <view key="view" contentMode="scaleToFill" id="t3n-es-0LY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TOP MUSIC IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gL5-9x-aAd">
-                                <rect key="frame" x="43" y="64" width="289" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="21"/>
-                                <color key="textColor" red="0.69194501639999995" green="0.15874440970000001" blue="0.10202622409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="down" translatesAutoresizingMaskIntoConstraints="NO" id="s0X-0H-9Q9">
-                                <rect key="frame" x="287" y="100" width="18" height="18"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="down" translatesAutoresizingMaskIntoConstraints="NO" id="LBX-NG-K3w">
+                                <rect key="frame" x="300" y="82" width="10" height="10"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="Pvf-Oi-rRb" customClass="DropMenuButton" customModule="Lyrix_Plus" customModuleProvider="target">
-                                <rect key="frame" x="17" y="93" width="288" height="33"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="YOV-WM-XvP" customClass="DropMenuButton" customModule="Lyrix_Plus" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="70" width="320" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
                                 <state key="normal" title="United States">
                                     <color key="titleColor" red="0.69194501639999995" green="0.15874440970000001" blue="0.10202622409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="DidselectDropDownMenu:" destination="nOa-bf-e0N" eventType="touchUpInside" id="D2z-hG-fFQ"/>
+                                    <action selector="DidselectDropDownMenu:" destination="VLe-xe-krv" eventType="touchUpInside" id="W8w-6I-sa7"/>
                                 </connections>
                             </button>
-                            <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="s57-Pi-KRq">
-                                <rect key="frame" x="43" y="95" width="288" height="29"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" bounces="NO" dataMode="prototypes" style="plain" rowHeight="137" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Jxt-0n-Jbj">
+                                <rect key="frame" x="16" y="108" width="343" height="469"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="Music"/>
-                                    <segment title="Lyrics"/>
-                                </segments>
-                                <color key="tintColor" red="0.91122645140000003" green="0.3371972144" blue="0.3765407503" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </segmentedControl>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="174" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="A0y-x1-JEx">
-                                <rect key="frame" x="1" y="134" width="374" height="491"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="separatorColor" red="0.69194501639999995" green="0.15874440970000001" blue="0.10202622409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="sectionIndexBackgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" rowHeight="174" id="bdZ-jG-z1G">
-                                        <rect key="frame" x="0.0" y="28" width="374" height="174"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" selectionStyle="none" indentationWidth="10" reuseIdentifier="myCell" rowHeight="137" id="nMi-z5-gwf" customClass="SongCell" customModule="Lyrix_Plus" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="137"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bdZ-jG-z1G" id="snc-XB-cuU">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="173.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nMi-z5-gwf" id="n1W-Ke-Krf">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="136.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ed sheran" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0OK-IW-4Z3">
-                                                    <rect key="frame" x="133" y="23" width="180" height="50"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shape Of You" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Feg-7J-t2Q">
+                                                    <rect key="frame" x="98" y="30" width="180" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="13"/>
+                                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shape Of You" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quI-UL-VkC">
-                                                    <rect key="frame" x="133" y="77" width="180" height="50"/>
+                                                <imageView userInteractionEnabled="NO" tag="103" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5oh-Zh-Yc6">
+                                                    <rect key="frame" x="0.0" y="24" width="90" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="13"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ed sheran" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQA-RO-zow">
+                                                    <rect key="frame" x="98" y="76" width="180" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="11"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Artist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20c-Gt-G7R">
-                                                    <rect key="frame" x="133" y="10" width="79" height="25"/>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLr-0J-UgP">
+                                                    <rect key="frame" x="279" y="114" width="56" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="13"/>
-                                                    <color key="textColor" red="0.92295598980000004" green="0.34112918380000001" blue="0.38046142459999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="105" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="N° 1" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="As2-cs-Q5I">
-                                                    <rect key="frame" x="233" y="6" width="65" height="25"/>
+                                                    <state key="normal" image="itunes"/>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="105" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="N° 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAh-8D-2RN">
+                                                    <rect key="frame" x="287" y="0.0" width="48" height="25"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="15"/>
                                                     <color key="textColor" red="0.69194501639999995" green="0.15874440970000001" blue="0.10202622409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmC-EE-6u7">
-                                                    <rect key="frame" x="133" y="64" width="170" height="25"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="13"/>
-                                                    <color key="textColor" red="0.92295598980000004" green="0.34112918380000001" blue="0.38046142459999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shape Of You" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwy-6T-uAl">
-                                                    <rect key="frame" x="133" y="121" width="180" height="50"/>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <outlet property="Button" destination="LLr-0J-UgP" id="9S1-Dy-udR"/>
+                                            <outlet property="button" destination="LLr-0J-UgP" id="Dgn-Ji-OUr"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Top Music" id="CJG-e2-ZaP"/>
+                    <connections>
+                        <outlet property="arrow" destination="LBX-NG-K3w" id="d4s-sh-Uoh"/>
+                        <outlet property="drop" destination="YOV-WM-XvP" id="k8B-6m-BYT"/>
+                        <outlet property="navigationBarMenu" destination="CJG-e2-ZaP" id="V2Y-rL-d3p"/>
+                        <outlet property="tblView" destination="Jxt-0n-Jbj" id="wem-UZ-3xu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eLb-5B-NZg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2552.8000000000002" y="892.80359820089961"/>
+        </scene>
+        <!--Recognition Controller-->
+        <scene sceneID="ajR-DR-a9n">
+            <objects>
+                <viewController storyboardIdentifier="SearchAudi" id="0hB-gx-U8s" customClass="RecognitionController" customModule="Lyrix_Plus" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q6D-Hf-KwL"/>
+                        <viewControllerLayoutGuide type="bottom" id="HSF-Mj-Ct6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9NI-pK-xEZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Z9V-UV-Hl2">
+                                <rect key="frame" x="40" y="449" width="240" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NuG-yL-1Hl">
+                                <rect key="frame" x="90" y="102" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.78236418959999998" green="0.36462727189999999" blue="0.3922311664" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="microphoneTapped:" destination="0hB-gx-U8s" eventType="touchUpInside" id="Bhe-KB-o5A"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LogoRound" translatesAutoresizingMaskIntoConstraints="NO" id="g09-Ee-nat">
+                                <rect key="frame" x="117" y="102" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <connections>
+                        <outlet property="microphoneButton" destination="NuG-yL-1Hl" id="jrg-L3-h2W"/>
+                        <outlet property="sourceView" destination="g09-Ee-nat" id="eVl-N2-5B3"/>
+                        <outlet property="textView" destination="Z9V-UV-Hl2" id="8Rh-DH-VGx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kwq-lD-ZoA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8866" y="183"/>
+        </scene>
+        <!--Artist Search-->
+        <scene sceneID="MAw-RX-Tll">
+            <objects>
+                <viewController restorationIdentifier="SearchForArtist" storyboardIdentifier="SearchForArtist" title="Artist Search" automaticallyAdjustsScrollViewInsets="NO" id="i0Z-Ed-jEj" customClass="SearchArtistController" customModule="Lyrix_Plus" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YVa-WU-Wzt"/>
+                        <viewControllerLayoutGuide type="bottom" id="rkR-d3-J3F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hZa-jW-UHC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="85" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UOw-t2-5Hd">
+                                <rect key="frame" x="16" y="67" width="343" height="561"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="separatorColor" red="0.69194501639999995" green="0.15874440970000001" blue="0.10202622409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="sectionIndexBackgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="artistCell" rowHeight="85" id="Bjx-Qk-Z5L">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="85"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bjx-Qk-Z5L" id="sAE-7d-EDc">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="84.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="401" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ed sheran" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VI4-cJ-4V7">
+                                                    <rect key="frame" x="100" y="17" width="202" height="50"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="13"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Album" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ld-P0-JTl">
-                                                    <rect key="frame" x="133" y="111" width="170" height="25"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="13"/>
-                                                    <color key="textColor" red="0.92295598980000004" green="0.34112918380000001" blue="0.38046142459999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView userInteractionEnabled="NO" tag="103" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vsf-JX-cQj">
-                                                    <rect key="frame" x="7" y="23" width="115" height="125"/>
+                                                <imageView userInteractionEnabled="NO" tag="402" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y6k-Mc-Be6">
+                                                    <rect key="frame" x="17" y="12" width="60" height="60"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
@@ -2439,25 +2255,199 @@
                         </subviews>
                         <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Top Music" id="rKd-4z-vHU"/>
+                    <navigationItem key="navigationItem" title="Welcome to LyriX Plus" id="yBM-4y-cma"/>
                     <connections>
-                        <outlet property="arrow" destination="s0X-0H-9Q9" id="vei-lh-Tjp"/>
-                        <outlet property="drop" destination="Pvf-Oi-rRb" id="NBt-BH-k75"/>
-                        <outlet property="seg" destination="s57-Pi-KRq" id="Hrz-d5-wIm"/>
-                        <outlet property="tblView" destination="A0y-x1-JEx" id="sui-kR-R9P"/>
-                        <outlet property="topMusicLabel" destination="gL5-9x-aAd" id="pkk-VB-ChJ"/>
+                        <outlet property="tblView" destination="UOw-t2-5Hd" id="YA1-9E-qql"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bxe-EO-fF5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="451-nI-Uy8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2552.8000000000002" y="892.80359820089961"/>
+            <point key="canvasLocation" x="9940" y="-605.84707646176912"/>
+        </scene>
+        <!--Song Search-->
+        <scene sceneID="6Va-iP-Cfr">
+            <objects>
+                <viewController restorationIdentifier="SearchForMusic" storyboardIdentifier="SearchForMusic" title="Song Search" automaticallyAdjustsScrollViewInsets="NO" id="xIk-qx-LtJ" customClass="SearchMusicController" customModule="Lyrix_Plus" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jfk-Ps-X8n"/>
+                        <viewControllerLayoutGuide type="bottom" id="vrx-4G-7lo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xIw-GM-YV5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" bounces="NO" dataMode="prototypes" style="plain" rowHeight="137" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="M2c-uz-EjL">
+                                <rect key="frame" x="10" y="53" width="349" height="571"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="separatorColor" red="0.69194501639999995" green="0.15874440970000001" blue="0.10202622409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="sectionIndexBackgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" selectionStyle="none" indentationWidth="10" reuseIdentifier="helloCell" rowHeight="137" id="qH6-mt-L8E" customClass="SongCell" customModule="Lyrix_Plus" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="349" height="137"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qH6-mt-L8E" id="ZjV-Ul-Mnn">
+                                            <rect key="frame" x="0.0" y="0.0" width="349" height="136.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="302" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shape Of You" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vmZ-d2-xXr">
+                                                    <rect key="frame" x="98" y="30" width="180" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" tag="303" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7wM-6N-bHr">
+                                                    <rect key="frame" x="0.0" y="24" width="90" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="301" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ed sheran" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFw-kA-t4A">
+                                                    <rect key="frame" x="98" y="76" width="180" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="11"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Welcome to LyriX Plus" id="OfI-CA-bS0"/>
+                    <connections>
+                        <outlet property="tblView" destination="M2c-uz-EjL" id="JCb-Rb-hfV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Df-CL-VFU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10906.4" y="-605.84707646176912"/>
+        </scene>
+        <!--Welcome to LyriX Plus-->
+        <scene sceneID="jt1-CK-KFA">
+            <objects>
+                <viewController restorationIdentifier="Artist" storyboardIdentifier="Artist" automaticallyAdjustsScrollViewInsets="NO" id="2YJ-CS-Yff" customClass="ArtistController" customModule="Lyrix_Plus" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dF9-jv-07b"/>
+                        <viewControllerLayoutGuide type="bottom" id="8MV-X4-cUp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="akm-KN-iUw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Biography : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Izi-je-raB">
+                                <rect key="frame" x="16" y="280" width="106" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
+                                <color key="textColor" red="0.91122645140000003" green="0.3371972144" blue="0.3765407503" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scH-Z5-HEV">
+                                <rect key="frame" x="16" y="320" width="288" height="237"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nli-l6-1pt">
+                                <rect key="frame" x="122" y="109" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adele" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDH-MP-BTC">
+                                <rect key="frame" x="43" y="247" width="288" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                <color key="textColor" red="0.69194501639999995" green="0.15874440970000001" blue="0.10202622409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Welcome to LyriX Plus" id="nhK-8b-QT0"/>
+                    <connections>
+                        <outlet property="artistBio" destination="scH-Z5-HEV" id="Tla-Z1-9bU"/>
+                        <outlet property="artistImage" destination="nli-l6-1pt" id="Loh-An-vhl"/>
+                        <outlet property="artistName" destination="NDH-MP-BTC" id="fHN-OZ-VLk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qzn-7J-Mlk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9941" y="-1452"/>
+        </scene>
+        <!--Welcome to LyriX Plus-->
+        <scene sceneID="LGb-TC-vbT">
+            <objects>
+                <viewController restorationIdentifier="TopArtist" storyboardIdentifier="TopArtist" automaticallyAdjustsScrollViewInsets="NO" id="BbD-5N-aYM" customClass="TopSongArtistController" customModule="Lyrix_Plus" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="akN-Nw-fQp"/>
+                        <viewControllerLayoutGuide type="bottom" id="OFw-GM-YhI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="M3h-gv-rvH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" bounces="NO" dataMode="prototypes" style="plain" rowHeight="88" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MDP-AT-9ds">
+                                <rect key="frame" x="16" y="102" width="343" height="515"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="separatorColor" red="0.69194501639999995" green="0.15874440970000001" blue="0.10202622409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="sectionIndexBackgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" selectionStyle="none" indentationWidth="10" reuseIdentifier="helloCell" rowHeight="88" id="SDi-16-FGg" customClass="SongCell" customModule="Lyrix_Plus" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="88"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SDi-16-FGg" id="83s-5s-C6H">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="87.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="302" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shape Of You" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgo-2K-2nH">
+                                                    <rect key="frame" x="84" y="8" width="180" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" tag="303" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="compact-disk" translatesAutoresizingMaskIntoConstraints="NO" id="znN-Ce-LJO">
+                                                    <rect key="frame" x="8" y="12" width="62" height="63"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="301" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ed sheran" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IAg-f7-436">
+                                                    <rect key="frame" x="84" y="45" width="180" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="11"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2001109868" green="0.20010645690000001" blue="0.2001094967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Welcome to LyriX Plus" id="w3p-XH-mLh"/>
+                    <connections>
+                        <outlet property="tblView" destination="MDP-AT-9ds" id="RSr-uL-CXc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ubJ-KX-kRg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10882.4" y="-1453.2233883058473"/>
         </scene>
     </scenes>
     <resources>
         <image name="Image" width="800" height="800"/>
+        <image name="LogoRound" width="398" height="399"/>
         <image name="camera" width="512" height="512"/>
         <image name="cancel" width="24" height="24"/>
         <image name="commenting" width="256" height="256"/>
+        <image name="compact-disk" width="512" height="512"/>
         <image name="dislike" width="256" height="256"/>
         <image name="dislike-2" width="256" height="256"/>
         <image name="down" width="64" height="64"/>
@@ -2468,6 +2458,7 @@
         <image name="ic_logout" width="24" height="24"/>
         <image name="icon" width="128" height="128"/>
         <image name="icon-1" width="256" height="256"/>
+        <image name="itunes" width="845" height="327"/>
         <image name="library" width="512" height="512"/>
         <image name="like" width="256" height="256"/>
         <image name="logo" width="398" height="399"/>
@@ -2481,19 +2472,15 @@
         <image name="records" width="24" height="24"/>
         <image name="replay" width="24" height="24"/>
         <image name="send-button" width="256" height="256"/>
-        <image name="share" width="64" height="64"/>
         <image name="share-option" width="256" height="256"/>
         <image name="share-post-symbol" width="256" height="256"/>
         <image name="shares" width="24" height="24"/>
         <image name="thumb-up" width="256" height="256"/>
-        <image name="up" width="64" height="64"/>
         <image name="user" width="128" height="128"/>
-        <image name="youtube" width="128" height="128"/>
-        <image name="youtube-2" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="66w-j2-aU5"/>
-        <segue reference="GUn-bd-WKK"/>
-        <segue reference="bKp-VY-pKS"/>
+        <segue reference="AWF-ez-ehp"/>
+        <segue reference="rdO-fl-IFC"/>
+        <segue reference="AAT-47-DxG"/>
     </inferredMetricsTieBreakers>
 </document>

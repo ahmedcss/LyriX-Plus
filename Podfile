@@ -17,5 +17,10 @@ pod "TextFieldEffects" ,:git => 'https://github.com/raulriera/TextFieldEffects'
 pod 'ImageOpenTransition'
 pod 'Kanna', '~> 2.1.0'
 pod 'IQKeyboardManagerSwift'
+pod "DropDownMenuKit"
+pod "Pulsator"
+pod 'SDWebImage', '~>3.8'
+pod 'SDWebImage/WebP'
+pod 'TabPageViewController'
 
 end
