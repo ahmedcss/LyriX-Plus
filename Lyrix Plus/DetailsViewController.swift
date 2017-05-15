@@ -47,9 +47,11 @@ class DetailsViewController: UIViewController {
     
     var page : String = ""
     
+    @IBOutlet weak var lyricsSong: UIButton!
+    @IBOutlet weak var lyricsRecord: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+       navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor("#FF475C")]
     }
 
     override func didReceiveMemoryWarning() {
@@ -86,6 +88,8 @@ class DetailsViewController: UIViewController {
        
         if (self.shares["id_record"] == [] )
         {
+            lyricsSong.isHidden = false
+            lyricsRecord.isHidden = true
             recordSong.isHidden = false
             if let imageUrl = URL(string:shares["id_song"][0]["id_singer"][0]["picture"].stringValue) ,let placeholder = UIImage(named: "placeholder"){
                 imgAlbum.setImage(withUrl: imageUrl, placeholder: placeholder)
@@ -140,6 +144,8 @@ class DetailsViewController: UIViewController {
 
         }
         else {
+            lyricsSong.isHidden = true
+            lyricsRecord.isHidden = false
              recordSong.isHidden = true
              imgAlbum.image = UIImage(named: "default_record")
             nomAlbum.text = "No album"
@@ -207,16 +213,30 @@ class DetailsViewController: UIViewController {
         }
         else if (segue.identifier == "playsong" )
        {
-        let sv:MusicViewController=segue.destination as! MusicViewController
+       /* let sv:MusicViewController=segue.destination as! MusicViewController
         sv.shares = self.shares
-        sv.page = "music"
-        
+        sv.page = "music"*/
+      let svs:SongController=segue.destination as! SongController
+     
+        svs.artistName = self.singer.text!
+        svs.songName = self.song.text!
+        svs.albumName = self.nomAlbum.text!
+        svs.albumPicUrl = shares["id_song"][0]["album"][0]["picture"].stringValue
+        svs.artistPicUrl = shares["id_song"][0]["id_singer"][0]["picture"].stringValue
+        print (shares["id_song"][0]["preview"].stringValue)
+        svs.url = shares["id_song"][0]["preview"].stringValue
         }
         else if (segue.identifier == "recordsong")
        {
         let sv:AddRecordViewController=segue.destination as! AddRecordViewController
         sv.song = self.shares["id_song"][0]
         sv.page = "details"
+        }
+        else
+       {
+        let sv:MusicViewController=segue.destination as! MusicViewController
+        sv.shares = self.shares
+        sv.page = "music"
         }
         
     }

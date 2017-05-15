@@ -27,6 +27,7 @@ class SharesViewController: UIViewController , UITableViewDelegate , UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor("#FF475C")]
         navigationController?.navigationBar.barTintColor = UIColor("#333333")
         tableview.backgroundColor = UIColor("#3D3D3D")
         tableview.refreshControl = refreshControl

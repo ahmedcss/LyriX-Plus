@@ -16,6 +16,7 @@ import MapleBacon
 
 class ProfilViewController: UIViewController,SPSegmentControlCellStyleDelegate, SPSegmentControlDelegate {
    
+    @IBOutlet weak var btnUpdateImage: UIButton!
     @IBOutlet weak var profilImage: UIImageView!
     private let borderColor: UIColor = UIColor(hue: 1, saturation: 0, brightness: 1, alpha: 0.5)
    private let backgroundColor: UIColor = UIColor(hue: 1, saturation: 0, brightness: 1, alpha: 0.08)
@@ -44,6 +45,7 @@ class ProfilViewController: UIViewController,SPSegmentControlCellStyleDelegate, 
        
         super.viewDidLoad()
         modifBtn.layer.cornerRadius = 20
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor("#FF475C")]
         navigationController?.navigationBar.barTintColor = UIColor("#333333")
         if let imageUrl = URL(string:SharedPreferences.sharedpref.prefs.string(forKey: "picture")!) , let placeholder = UIImage(named: "placeholder"){
             profilImage.setImage(withUrl: imageUrl , placeholder: placeholder)
@@ -147,6 +149,7 @@ class ProfilViewController: UIViewController,SPSegmentControlCellStyleDelegate, 
             birthdayText.isUserInteractionEnabled = true
             passwordText.isUserInteractionEnabled = true
             genderText.isUserInteractionEnabled = true
+            btnUpdateImage.isHidden = false
             
             usernameText.layer.cornerRadius = 10
             locationText.layer.cornerRadius = 10
@@ -169,6 +172,7 @@ class ProfilViewController: UIViewController,SPSegmentControlCellStyleDelegate, 
         else
         {
             modifBtn.isHidden = true
+            btnUpdateImage.isHidden = true
             usernameText.isUserInteractionEnabled = false
             locationText.isUserInteractionEnabled = false
             emailText.isUserInteractionEnabled = false
@@ -305,6 +309,14 @@ class ProfilViewController: UIViewController,SPSegmentControlCellStyleDelegate, 
         alert.view.tintColor = UIColor("#FF475C")
         
 
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       
+        let svc:UpdateImageViewController=segue.destination as! UpdateImageViewController
+        svc.username = SharedPreferences.sharedpref.prefs.string(forKey: "username")! as String
+        svc.img = SharedPreferences.sharedpref.prefs.string(forKey: "picture")!
+        
+        
     }
    
 }

@@ -29,7 +29,6 @@ PODS:
     - FBSDKCoreKit
   - FBSDKShareKit (4.22.0):
     - FBSDKCoreKit
-  - ImageOpenTransition (0.1.7)
   - IQKeyboardManagerSwift (4.0.9)
   - Kanna (2.1.1)
   - libwebp (0.5.1):
@@ -78,7 +77,6 @@ DEPENDENCIES:
   - FacebookCore
   - FacebookLogin
   - FacebookShare
-  - ImageOpenTransition
   - IQKeyboardManagerSwift
   - Kanna (~> 2.1.0)
   - MapleBacon
@@ -117,7 +115,6 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: c693bad19feb225469eeff14452ba364522ee48b
   FBSDKLoginKit: 1fa529fc622d7b32ebeaffbecd377180833c6d30
   FBSDKShareKit: 21ab3c8d173f4fa20c47c1061f3a9fac5950b5fa
-  ImageOpenTransition: 6a199dddd869cbfe12a853f52802e14d7f874c50
   IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
   Kanna: 9b4b086c218703f2b94f5b21a466217dd2f9332e
   libwebp: b9126f8982a95370cf4eaad9bb3fefd57f052c15
@@ -130,6 +127,6 @@ SPEC CHECKSUMS:
   TextFieldEffects: ace4c2cd99c9d21d4e1523ae106e72c35c438064
   UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
 
-PODFILE CHECKSUM: 77a08d4ca2172ab2d2976aac99bee8358879e4bb
+PODFILE CHECKSUM: 70892b00ec629ea5d66ca25d972ad6e0194b7d52
 
 COCOAPODS: 1.2.0

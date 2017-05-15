@@ -14,7 +14,6 @@ pod 'FacebookLogin'
 pod 'FacebookShare'
 pod 'MapleBacon'
 pod "TextFieldEffects" ,:git => 'https://github.com/raulriera/TextFieldEffects'
-pod 'ImageOpenTransition'
 pod 'Kanna', '~> 2.1.0'
 pod 'IQKeyboardManagerSwift'
 pod "DropDownMenuKit"

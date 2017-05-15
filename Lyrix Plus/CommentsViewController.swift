@@ -10,7 +10,6 @@ import UIKit
 import SwiftyJSON
 import Alamofire
 import SwiftSpinner
-import ImageOpenTransition
 import UIColor_Hex_Swift
 import CDAlertView
 import MapleBacon
@@ -57,7 +56,7 @@ class CommentsViewController: UIViewController ,UITableViewDelegate , UITableVie
         super.viewDidLoad()
         navigationController?.navigationBar.barTintColor = UIColor("#333333")
         tableview.backgroundColor = UIColor("#333333")
-        
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor("#FF475C")]
         // Do any additional setup after loading the view.
     }
     

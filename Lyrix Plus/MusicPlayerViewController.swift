@@ -35,6 +35,7 @@ class MusicPlayerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor("#FF475C")]
         if(page == "music")
         {
         if (self.shares["id_record"] == [] )

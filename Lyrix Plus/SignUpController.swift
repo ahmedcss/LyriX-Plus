@@ -22,7 +22,7 @@ class SignUpController: UIViewController , UITextFieldDelegate{
     
     
 
-    var server:String="http://193.95.44.118/lyrics/"
+    var server:String="http://193.95.44.118/lyrix/"
     var isUsernameValid:Bool = true
     var isUsernameNonEmpty:Bool = false
     var isPasswordNonEmpty:Bool = false
@@ -37,26 +37,12 @@ class SignUpController: UIViewController , UITextFieldDelegate{
         
         btn.layer.cornerRadius = 7
         
-        
-        
-        // Do any additional setup after loading the view, typically from a nib.
-        /*
-         txtusername.attributedPlaceholder = NSAttributedString(string: "Username",
-         attributes: [NSForegroundColorAttributeName: UIColor.gray])
-         txtemail.attributedPlaceholder = NSAttributedString(string: "Email",
-         attributes: [NSForegroundColorAttributeName: UIColor.gray])
-         txtpassword.attributedPlaceholder = NSAttributedString(string: "Password",
-         attributes: [NSForegroundColorAttributeName: UIColor.gray])
-         txtconfirmPasswod.attributedPlaceholder = NSAttributedString(string: "Confirm Password",
-         attributes: [NSForegroundColorAttributeName: UIColor.gray])
-         */
-        
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor("#FF475C")]
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
         self.navigationController?.view.backgroundColor = UIColor.clear
         
-
         // Do any additional setup after loading the view.
     }
 
@@ -208,14 +194,7 @@ class SignUpController: UIViewController , UITextFieldDelegate{
         }
 
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
+    
 
 }

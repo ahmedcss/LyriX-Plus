@@ -30,6 +30,7 @@ class AddRecordViewController: UIViewController , RecorderViewDelegate {
    
        override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor("#FF475C")]
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         recorderView = storyboard.instantiateViewController(withIdentifier: "RecorderViewController") as! RecorderViewController
         recorderView.delegate = self

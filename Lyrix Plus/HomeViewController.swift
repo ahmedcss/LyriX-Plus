@@ -31,7 +31,7 @@ class HomeViewController: UIViewController ,UITableViewDelegate , UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
        
-  
+         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor("#FF475C")]
         navigationController?.navigationBar.barTintColor = UIColor("#333333")
         tableview.backgroundColor = UIColor("#3D3D3D")
         tableview.refreshControl = refreshControl
@@ -292,6 +292,30 @@ class HomeViewController: UIViewController ,UITableViewDelegate , UITableViewDat
             alert.show()
              refreshControl.endRefreshing()
         }
+
+    }
+    
+    @IBAction func Logout(_ sender: Any) {
+        let alert = UIAlertController(title: "Alert", message: "Are u sure to logout ?", preferredStyle: UIAlertControllerStyle.alert )
+        alert.addAction(UIAlertAction(title: "Yes", style: UIAlertActionStyle.default, handler: { action in
+            SharedPreferences.sharedpref.prefs.set(0, forKey: "ISLOGGEDIN")
+            UserDefaults.init(suiteName: "group.Lyrix")?.setValue("" , forKey: "username")
+            
+            let view2 = self.storyboard?.instantiateViewController(withIdentifier: "login") as! ViewController
+            self.tabBarController?.selectedIndex = 0
+            
+            DispatchQueue.main.async (execute : {
+                
+                self.navigationController?.present(view2, animated: true, completion: nil)
+            })
+            
+            
+        }))
+        alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+        alert.view.backgroundColor = UIColor("#333333")
+        alert.view.tintColor = UIColor("#FF475C")
+        
 
     }
     
